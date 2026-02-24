@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+  padding: 2vw;
+  padding-top: 5vw;
+  background-color: #F7F7F7;
+  height: 100vh;
+  background-image: url("img/2.svg");
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: 10% 0%;}
+
+@font-face {
+  font-family: sculpin;
+  src: url(fonnts.com-Sculpin_Medium.otf);
+}
+
+h1 {
+  font-family: sculpin;
+  font-weight: 800!important;
+  text-align: center;
+  margin-bottom: 2.5vw!important;
+  font-size: 4.5vw !important;
+
+}
+
+h2 {
+  margin-bottom: 0px!important;
+  font-weight: 600 !important;
+  font-size: 1.5vw !important;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 0px !important;
+  font-size: 1vw;
+  text-align: left;
+}
+
+form {
+  width: 100%;
+}
+.mainCTA{
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1vw !important;
+  font-weight: 500 !important;
+  background-color: #5959E0 !important;
+  border-color:#5959E0 !important ;
+  border-radius: 200px!important;
+  padding: 0.6vw 1.8vw !important;
+}
+
+.folders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4vw;
+}
+
+.Section {
+  width: 28vw;
+  background-color: #EDEDED;
+  padding: 3vw;
+  border-radius: 0.6vw;
+}
+
+.headerSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5vw;
+}
+
+.count{
+  font-size: 1.5vw;
+  margin-left: 1vw !important;
+  color: rgb(145, 145, 145);
+}
+
+.card {
+  border-color: white !important;
+  padding: 1vw;
+  margin: 1.2vw 0px;
+  flex-direction: row!important;
+  justify-content: space-between;
+  cursor: grab;
+}
+
+.noteContainer{
+  display: flex;
+}
+
+.titleTask{
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+  text-transform: capitalize
+
+}
+
+.date{
+  font-size: 0.8vw;
+  color: rgb(170, 170, 170);
+}
+
+.urgentColor{
+  background-color: #FDA491;
+  width: 5px;
+  height: 100%;
+  border-radius: 100px;
+  margin-right: 0.8vw;
+}
+
+.notUrgentColor{
+  background-color: #5959E0;
+  width: 5px;
+  height: 100%;
+  border-radius: 100px;
+  margin-right: 0.8vw;
+}
+
+.bonusColor{
+  background-color: #FDCD81;
+  width: 5px;
+  height: 100%;
+  border-radius: 100px;
+  margin-right: 0.8vw;
+}
+
+.deleteIconDiv{
+  display: flex;
+}
+
+.deleteIcon{
+  width: 2vw;
+  cursor: pointer;
+}
+
+.form{
+  padding: 3vw;
+}
+
+.modal-dialog{
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+
+.sectionForm{
+  padding-bottom: 2vw;
+}
+
+.formCTA{
+  border-radius:50px!important;
+  margin-right: 5%;
+  padding: 0.6vw 1.8vw !important;
+
+}
+
+.formCTAsubmit{
+  background-color: #5959E0 !important;
+}
