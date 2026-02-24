@@ -2,12 +2,13 @@
   text-align: center;
   padding: 2vw;
   padding-top: 5vw;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   height: 100vh;
   background-image: url("img/2.svg");
   background-size: 25%;
   background-repeat: no-repeat;
-  background-position: 10% 0%;}
+  background-position: 10% 0%;
+}
 
 @font-face {
   font-family: sculpin;
@@ -16,15 +17,14 @@
 
 h1 {
   font-family: sculpin;
-  font-weight: 800!important;
+  font-weight: 800 !important;
   text-align: center;
-  margin-bottom: 2.5vw!important;
+  margin-bottom: 2.5vw !important;
   font-size: 4.5vw !important;
-
 }
 
 h2 {
-  margin-bottom: 0px!important;
+  margin-bottom: 0px !important;
   font-weight: 600 !important;
   font-size: 1.5vw !important;
   font-family: "Poppins", sans-serif;
@@ -39,13 +39,13 @@ p {
 form {
   width: 100%;
 }
-.mainCTA{
+.mainCTA {
   font-family: "Poppins", sans-serif !important;
   font-size: 1vw !important;
   font-weight: 500 !important;
-  background-color: #5959E0 !important;
-  border-color:#5959E0 !important ;
-  border-radius: 200px!important;
+  background-color: #5959e0 !important;
+  border-color: #5959e0 !important ;
+  border-radius: 200px !important;
   padding: 0.6vw 1.8vw !important;
 }
 
@@ -58,7 +58,7 @@ form {
 
 .Section {
   width: 28vw;
-  background-color: #EDEDED;
+  background-color: #ededed;
   padding: 3vw;
   border-radius: 0.6vw;
 }
@@ -69,7 +69,7 @@ form {
   margin-bottom: 1.5vw;
 }
 
-.count{
+.count {
   font-size: 1.5vw;
   margin-left: 1vw !important;
   color: rgb(145, 145, 145);
@@ -79,82 +79,138 @@ form {
   border-color: white !important;
   padding: 1vw;
   margin: 1.2vw 0px;
-  flex-direction: row!important;
+  flex-direction: row !important;
   justify-content: space-between;
   cursor: grab;
 }
 
-.noteContainer{
+.noteContainer {
   display: flex;
 }
 
-.titleTask{
+.titleTask {
   font-size: 1vw;
   font-weight: 500;
   font-family: "Manrope", sans-serif;
-  text-transform: capitalize
-
+  text-transform: capitalize;
 }
 
-.date{
+.date {
   font-size: 0.8vw;
   color: rgb(170, 170, 170);
 }
 
-.urgentColor{
-  background-color: #FDA491;
+.margin-right {
+  margin-right: 0.8vw;
+}
+.urgentColor {
+  background-color: #fda491;
   width: 5px;
   height: 100%;
   border-radius: 100px;
-  margin-right: 0.8vw;
 }
 
-.notUrgentColor{
-  background-color: #5959E0;
+.notUrgentColor {
+  background-color: #5959e0;
   width: 5px;
   height: 100%;
   border-radius: 100px;
-  margin-right: 0.8vw;
 }
 
-.bonusColor{
-  background-color: #FDCD81;
+.bonusColor {
+  background-color: #fdcd81;
   width: 5px;
   height: 100%;
   border-radius: 100px;
-  margin-right: 0.8vw;
 }
 
-.deleteIconDiv{
+.deleteIconDiv {
   display: flex;
 }
 
-.deleteIcon{
+.deleteIcon {
   width: 2vw;
   cursor: pointer;
 }
 
-.form{
+.form {
   padding: 3vw;
 }
 
-.modal-dialog{
+.modal-dialog {
   display: flex;
   align-items: center;
   height: 90vh;
 }
 
-.sectionForm{
+.sectionForm {
   padding-bottom: 2vw;
 }
 
-.formCTA{
-  border-radius:50px!important;
+.formCTA {
+  border-radius: 50px !important;
   margin-right: 5%;
   padding: 0.6vw 1.8vw !important;
-
 }
 
-.formCTAsubmit{
-  background-color: #5959E0 !important;
+.formCTAsubmit {
+  background-color: #5959e0 !important;
+}
+
+/* -------------------- Tablet -------------------- */
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  .folders {
+    flex-direction: column;
+    margin-top: 8+3vw;
+    gap: 5vw;
+    align-items: center;
+  }
+  .Section {
+    min-height: 20vw;
+    width: 60vw;
+  }
+}
+
+/* -------------------- Mobile -------------------- */
+
+@media (max-width: 767px) {
+  .folders {
+    flex-direction: column;
+    margin-top: 8+3vw;
+    gap: 5vw;
+    align-items: center;
+  }
+  .Section {
+    min-height: 30vw;
+    width: 75vw;
+    padding: 2vw 4vw;
+    border-radius: 2vw;
+  }
+  h1 {
+    font-size: 8vw !important;
+  }
+  .App {
+    padding-top: 10vw;
+  }
+  .mainCTA {
+    font-size: 3vw !important;
+    padding: 1vw 4vw !important;
+  }
+
+  h2 {
+    font-size: 3vw !important;
+  }
+  p {
+    font-size: 3vw !important;
+  }
+  .margin-right {
+    margin-right: 2vw;
+  }
+  .card {
+    padding: 3vw;
+  }
+  .deleteIcon {
+    width: 3vw;
+  }
 }
