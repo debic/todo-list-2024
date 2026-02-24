@@ -1,6 +1,3 @@
-# React app To do list
+# todo-list-2024
 
-This project is one of my steps for starting coding with react again, hope you like it.
-
-Any comment is welcome, anything for make this app cleaner and more efficient
-
+One of my first To do list projects. Hope you like it, and i would be more than happy to recive comments
