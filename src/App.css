@@ -2,8 +2,7 @@
   text-align: center;
   padding: 2vw;
   padding-top: 5vw;
-  background-color: #f7f7f7;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("img/2.svg");
   background-size: 25%;
   background-repeat: no-repeat;
@@ -15,19 +14,13 @@
   src: url(fonnts.com-Sculpin_Medium.otf);
 }
 
-h1 {
+.titleH1 {
   font-family: sculpin;
-  font-weight: 800 !important;
+  font-weight: 700;
   text-align: center;
-  margin-bottom: 2.5vw !important;
-  font-size: 4.5vw !important;
-}
-
-h2 {
-  margin-bottom: 0px !important;
-  font-weight: 600 !important;
-  font-size: 1.5vw !important;
-  font-family: "Poppins", sans-serif;
+  margin-bottom: 2.5vw;
+  font-size: 4.5vw;
+  color: #ededed;
 }
 
 p {
@@ -43,7 +36,10 @@ form {
   font-family: "Poppins", sans-serif !important;
   font-size: 1vw !important;
   font-weight: 500 !important;
-  background-color: #5959e0 !important;
+  background: linear-gradient(90deg, #5d68ff 0%, #6e5eff 100%) !important;
+  box-shadow:
+    0 10px 24px rgba(45, 28, 120, 0.35),
+    0 0 35px rgba(172, 112, 255, 0.16) !important;
   border-color: #5959e0 !important ;
   border-radius: 200px !important;
   padding: 0.6vw 1.8vw !important;
@@ -56,107 +52,6 @@ form {
   margin-top: 4vw;
 }
 
-.Section {
-  width: 28vw;
-  background-color: #ededed;
-  padding: 3vw;
-  border-radius: 0.6vw;
-}
-
-.headerSection {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.5vw;
-}
-
-.count {
-  font-size: 1.5vw;
-  margin-left: 1vw !important;
-  color: rgb(145, 145, 145);
-}
-
-.card {
-  border-color: white !important;
-  padding: 1vw;
-  margin: 1.2vw 0px;
-  flex-direction: row !important;
-  justify-content: space-between;
-  cursor: grab;
-}
-
-.noteContainer {
-  display: flex;
-}
-
-.titleTask {
-  font-size: 1vw;
-  font-weight: 500;
-  font-family: "Manrope", sans-serif;
-  text-transform: capitalize;
-}
-
-.date {
-  font-size: 0.8vw;
-  color: rgb(170, 170, 170);
-}
-
-.margin-right {
-  margin-right: 0.8vw;
-}
-.urgentColor {
-  background-color: #fda491;
-  width: 5px;
-  height: 100%;
-  border-radius: 100px;
-}
-
-.notUrgentColor {
-  background-color: #5959e0;
-  width: 5px;
-  height: 100%;
-  border-radius: 100px;
-}
-
-.bonusColor {
-  background-color: #fdcd81;
-  width: 5px;
-  height: 100%;
-  border-radius: 100px;
-}
-
-.deleteIconDiv {
-  display: flex;
-}
-
-.deleteIcon {
-  width: 2vw;
-  cursor: pointer;
-}
-
-.form {
-  padding: 3vw;
-}
-
-.modal-dialog {
-  display: flex;
-  align-items: center;
-  height: 90vh;
-}
-
-.sectionForm {
-  padding-bottom: 2vw;
-}
-
-.formCTA {
-  border-radius: 50px !important;
-  margin-right: 5%;
-  padding: 0.6vw 1.8vw !important;
-}
-
-.formCTAsubmit {
-  background-color: #5959e0 !important;
-}
-
 /* -------------------- Tablet -------------------- */
 
 @media (min-width: 768px) and (max-width: 1099px) {
@@ -165,10 +60,6 @@ form {
     margin-top: 8+3vw;
     gap: 5vw;
     align-items: center;
-  }
-  .Section {
-    min-height: 20vw;
-    width: 60vw;
   }
 }
 
@@ -181,13 +72,8 @@ form {
     gap: 5vw;
     align-items: center;
   }
-  .Section {
-    min-height: 30vw;
-    width: 75vw;
-    padding: 2vw 4vw;
-    border-radius: 2vw;
-  }
-  h1 {
+
+  .titleH1 {
     font-size: 8vw !important;
   }
   .App {
@@ -198,9 +84,6 @@ form {
     padding: 1vw 4vw !important;
   }
 
-  h2 {
-    font-size: 3vw !important;
-  }
   p {
     font-size: 3vw !important;
   }

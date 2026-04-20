@@ -1,0 +1,53 @@
+.form {
+  padding: 3vw;
+}
+
+.modalHeader {
+  padding: 3vw 2vw 0vw 3vw;
+}
+.modalTitle {
+  margin-bottom: 1vw;
+  font-weight: 600;
+  font-size: 2.5vw;
+  font-family: "Poppins", sans-serif;
+  color: #332f4e;
+  text-align: center;
+}
+
+.modalDescription {
+  text-align: center;
+}
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  width: 35vw;
+}
+
+.sectionForm {
+  padding-bottom: 2vw;
+}
+.sectionButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.1vw;
+  margin-top: 2.5vw;
+}
+
+.formCTA {
+  border-radius: 50px !important;
+  padding: 0.6vw 1.8vw !important;
+}
+
+.formCTAsubmit {
+  background-color: #5959e0 !important;
+}
+
+/* -------------------- Mobile -------------------- */
+
+@media (max-width: 767px) {
+  .modalTitle {
+    font-size: 3vw;
+  }
+}

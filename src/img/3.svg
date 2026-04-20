@@ -1,0 +1,33 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none">
+    
+<rect
+x="20"
+y="0"
+width="35"
+height="150"
+rx="18"
+transform="rotate(40 20 0)"
+fill="#FFFFFF"
+/>
+
+<rect
+x="75"
+y="0"
+width="35"
+height="150"
+rx="18"
+transform="rotate(40 75 0)"
+fill="#FFFFFF"
+/>
+
+<rect
+x="130"
+y="0"
+width="35"
+height="150"
+rx="18"
+transform="rotate(40 130 0)"
+fill="#B7AFFF"
+/>
+
+</svg>

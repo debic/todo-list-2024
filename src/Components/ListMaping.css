@@ -1,0 +1,57 @@
+.Section {
+  width: 28vw;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(243, 240, 250, 0.9)
+  );
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+  padding: 3vw;
+  border-radius: 0.6vw;
+}
+
+.headerSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5vw;
+}
+.headerSectionTitle {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 1.5vw;
+  font-family: "Poppins", sans-serif;
+  color: #332f4e;
+}
+
+.count {
+  font-size: 1.5vw;
+  margin-left: 1vw !important;
+  color: #a7a4b8;
+}
+
+/* -------------------- Tablet -------------------- */
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  .Section {
+    min-height: 20vw;
+    width: 60vw;
+  }
+}
+
+/* -------------------- Mobile -------------------- */
+
+@media (max-width: 767px) {
+  .Section {
+    min-height: 30vw;
+    width: 75vw;
+    padding: 2vw 4vw;
+    border-radius: 2vw;
+  }
+  .headerSectionTitle {
+    font-size: 3vw;
+  }
+}

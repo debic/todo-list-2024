@@ -1,0 +1,74 @@
+.card {
+  border-color: white !important;
+  background: #f9f8fc;
+
+  box-shadow: 0 8px 20px rgba(54, 45, 85, 0.03);
+
+  border-radius: 18px;
+  padding: 1vw;
+  margin: 1.2vw 0px;
+  flex-direction: row !important;
+  justify-content: space-between;
+  cursor: grab;
+}
+
+.date {
+  font-size: 0.8vw;
+  color: rgb(170, 170, 170);
+}
+
+.margin-right {
+  margin-right: 0.8vw;
+}
+
+.deleteIconDiv {
+  display: flex;
+}
+
+.deleteIcon {
+  width: 2vw;
+  cursor: pointer;
+}
+.titleTask {
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+  text-transform: capitalize;
+}
+.urgentColor {
+  background-color: #fda491;
+  width: 5px;
+  height: 100%;
+  border-radius: 100px;
+}
+
+.notUrgentColor {
+  background-color: #5959e0;
+  width: 5px;
+  height: 100%;
+  border-radius: 100px;
+}
+
+.bonusColor {
+  background-color: #fdcd81;
+  width: 5px;
+  height: 100%;
+  border-radius: 100px;
+}
+.noteContainer {
+  display: flex;
+}
+
+/* -------------------- Mobile -------------------- */
+
+@media (max-width: 767px) {
+  .margin-right {
+    margin-right: 2vw;
+  }
+  .card {
+    padding: 3vw;
+  }
+  .deleteIcon {
+    width: 3vw;
+  }
+}

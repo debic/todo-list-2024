@@ -6,31 +6,42 @@
         fill: none;
       }
 
-      .cls-3, .cls-4 {
-        fill: #ededed;
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+        isolation: isolate;
+        opacity: .57;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
       }
 
       .cls-5 {
-        fill: #e8e8e8;
+        fill: #ededed;
       }
 
       .cls-2 {
         clip-path: url(#clippath);
       }
-
-      .cls-4 {
-        opacity: .57;
-      }
     </style>
     <clipPath id="clippath">
       <rect class="cls-1" width="429.58" height="263.2"/>
     </clipPath>
+    <linearGradient id="linear-gradient" x1="105.1" y1="82.34" x2="331.31" y2="82.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="211.31" y1="78.47" x2="437.52" y2="78.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
   </defs>
   <g class="cls-2">
     <g>
-      <rect class="cls-3" x="152.47" y="-223.43" width="70.31" height="365.48" rx="35.16" ry="35.16" transform="translate(6.81 -105.23) rotate(31.88)"/>
-      <rect class="cls-5" x="183.05" y="-100.4" width="70.31" height="365.48" rx="35.16" ry="35.16" transform="translate(76.4 -102.82) rotate(31.88)"/>
-      <rect class="cls-4" x="289.26" y="-104.27" width="70.31" height="365.48" rx="35.16" ry="35.16" transform="translate(90.38 -159.5) rotate(31.88)"/>
+      <path class="cls-5" d="m284.14-195.86h0c16.49,10.25,21.54,31.93,11.28,48.42L139.53,103.2c-10.26,16.49-31.93,21.54-48.42,11.29h0c-16.49-10.25-21.54-31.93-11.28-48.42l155.89-250.64c10.26-16.49,31.93-21.54,48.42-11.29Z"/>
+      <path class="cls-4" d="m314.72-72.83h0c16.49,10.25,21.54,31.93,11.28,48.42l-155.89,250.64c-10.26,16.49-31.93,21.54-48.42,11.29h0c-16.49-10.25-21.54-31.93-11.28-48.42L266.29-61.54c10.26-16.49,31.93-21.54,48.42-11.29Z"/>
+      <path class="cls-3" d="m420.93-76.7h0c16.49,10.25,21.54,31.93,11.28,48.42l-155.89,250.64c-10.26,16.49-31.93,21.54-48.42,11.29h0c-16.49-10.25-21.54-31.93-11.28-48.42l155.89-250.64c10.26-16.49,31.93-21.54,48.42-11.29Z"/>
     </g>
   </g>
 </svg>

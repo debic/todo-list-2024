@@ -1,8 +1,9 @@
 import deleteIcon from "../img/delete.svg";
 import editIcon from "../img/edit.svg";
 import { useDrag, useDrop } from "react-dnd";
+import "./Cards.css";
 
-export default function PostCard({ task, toDoList, setToDoList, deletePost }) {
+export default function PostCard({ task, deletePost }) {
   let typeColor = "";
   if (task.priority === "Urgent") {
     typeColor = "urgentColor";
