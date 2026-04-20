@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/todo-list-2024/static/css/main.434ade4c.css",
-    "main.js": "/todo-list-2024/static/js/main.9a00e152.js",
+    "main.css": "/todo-list-2024/static/css/main.2f875ee8.css",
+    "main.js": "/todo-list-2024/static/js/main.a577c5e3.js",
     "static/js/453.81f383cb.chunk.js": "/todo-list-2024/static/js/453.81f383cb.chunk.js",
     "static/media/fonnts.com-Sculpin_Medium.otf": "/todo-list-2024/static/media/fonnts.com-Sculpin_Medium.73834199724f34d2f270.otf",
+    "static/media/2.svg": "/todo-list-2024/static/media/2.cc8aacb5d14135153dc0.svg",
     "static/media/delete.svg": "/todo-list-2024/static/media/delete.064fdc29dc6b593df8ad647075e0b6c6.svg",
     "static/media/edit.svg": "/todo-list-2024/static/media/edit.70dcf0d273e49eb2e063524795455949.svg",
-    "static/media/2.svg": "/todo-list-2024/static/media/2.604ee078745514b2adfa.svg",
     "index.html": "/todo-list-2024/index.html",
-    "main.434ade4c.css.map": "/todo-list-2024/static/css/main.434ade4c.css.map",
-    "main.9a00e152.js.map": "/todo-list-2024/static/js/main.9a00e152.js.map",
+    "main.2f875ee8.css.map": "/todo-list-2024/static/css/main.2f875ee8.css.map",
+    "main.a577c5e3.js.map": "/todo-list-2024/static/js/main.a577c5e3.js.map",
     "453.81f383cb.chunk.js.map": "/todo-list-2024/static/js/453.81f383cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.434ade4c.css",
-    "static/js/main.9a00e152.js"
+    "static/css/main.2f875ee8.css",
+    "static/js/main.a577c5e3.js"
   ]
 }
