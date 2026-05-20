@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 429.58 263.2">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5d68ff"/>
+      <stop offset="100%" stop-color="#6e5eff"/>
+    </linearGradient>
+  </defs>
+  <rect width="429.58" height="263.2" fill="transparent" />
+  <g transform="translate(0 0)">
+    <path fill="url(#g1)" opacity="0.95" d="M284.14-195.86c16.49,10.25,21.54,31.93,11.28,48.42L139.53,103.2c-10.26,16.49-31.93,21.54-48.42,11.29c-16.49-10.25-21.54-31.93-11.28-48.42L236.72-185.44c10.26-16.49,31.93-21.54,48.42-11.29z" transform="translate(0 200) scale(1)"/>
+    <path fill="url(#g1)" opacity="0.85" d="M314.72-72.83c16.49,10.25,21.54,31.93,11.28,48.42L170.11,226.23c-10.26,16.49-31.93,21.54-48.42,11.29c-16.49-10.25-21.54-31.93-11.28-48.42L266.29-61.54c10.26-16.49,31.93-21.54,48.42-11.29z" transform="translate(0 120) scale(1)"/>
+    <path fill="url(#g1)" opacity="0.75" d="M420.93-76.7c16.49,10.25,21.54,31.93,11.28,48.42L276.32,199.94c-10.26,16.49-31.93,21.54-48.42,11.29c-16.49-10.25-21.54-31.93-11.28-48.42L420.93-76.7z" transform="translate(0 120) scale(1)"/>
+  </g>
+</svg>
