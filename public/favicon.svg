@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 429.58 263.2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="App icon">
   <defs>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#5d68ff"/>
-      <stop offset="100%" stop-color="#6e5eff"/>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5d68ff" />
+      <stop offset="100%" stop-color="#6e5eff" />
     </linearGradient>
   </defs>
-  <rect width="429.58" height="263.2" fill="transparent" />
-  <g transform="translate(0 0)">
-    <path fill="url(#g1)" opacity="0.95" d="M284.14-195.86c16.49,10.25,21.54,31.93,11.28,48.42L139.53,103.2c-10.26,16.49-31.93,21.54-48.42,11.29c-16.49-10.25-21.54-31.93-11.28-48.42L236.72-185.44c10.26-16.49,31.93-21.54,48.42-11.29z" transform="translate(0 200) scale(1)"/>
-    <path fill="url(#g1)" opacity="0.85" d="M314.72-72.83c16.49,10.25,21.54,31.93,11.28,48.42L170.11,226.23c-10.26,16.49-31.93,21.54-48.42,11.29c-16.49-10.25-21.54-31.93-11.28-48.42L266.29-61.54c10.26-16.49,31.93-21.54,48.42-11.29z" transform="translate(0 120) scale(1)"/>
-    <path fill="url(#g1)" opacity="0.75" d="M420.93-76.7c16.49,10.25,21.54,31.93,11.28,48.42L276.32,199.94c-10.26,16.49-31.93,21.54-48.42,11.29c-16.49-10.25-21.54-31.93-11.28-48.42L420.93-76.7z" transform="translate(0 120) scale(1)"/>
+  <rect width="512" height="512" fill="#ffffff" opacity="0" />
+  <g fill="url(#g)">
+    <path d="M356 36c28 17 36 54 19 82L224 372c-17 28-54 36-82 19-28-17-36-54-19-82L274 73c17-28 54-36 82-19z" opacity="0.98"/>
+    <path d="M384 168c28 17 36 54 19 82L252 504c-17 28-54 36-82 19-28-17-36-54-19-82L307 199c17-28 54-36 82-31z" opacity="0.85"/>
+    <path d="M472 164c28 17 36 54 19 82L340 500c-17 28-54 36-82 19-28-17-36-54-19-82L435 195c17-28 54-36 82-31z" opacity="0.7"/>
   </g>
 </svg>
