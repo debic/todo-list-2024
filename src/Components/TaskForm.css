@@ -1,9 +1,9 @@
 .form {
-  padding: 3vw;
+  padding: 0;
 }
 
 .modalHeader {
-  padding: 3vw 2vw 0vw 3vw;
+  padding: 0;
 }
 .modalTitle {
   margin-bottom: 1vw;
@@ -20,8 +20,15 @@
 .modal-dialog {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 90vh;
   width: 35vw;
+  margin: 0 auto;
+}
+
+.modal-content {
+  box-sizing: border-box;
+  padding: 10vw;
 }
 
 .sectionForm {
@@ -50,4 +57,13 @@
   .modalTitle {
     font-size: 3vw;
   }
+
+  .modal-dialog {
+    width: 85vw;
+    max-width: 85vw;
+  }
+}
+
+.modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.75);
 }
