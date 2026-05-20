@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="App icon">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5d68ff" />
+      <stop offset="100%" stop-color="#6e5eff" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#ffffff" opacity="0" />
+  <g fill="url(#g)">
+    <path d="M356 36c28 17 36 54 19 82L224 372c-17 28-54 36-82 19-28-17-36-54-19-82L274 73c17-28 54-36 82-19z" opacity="0.98"/>
+    <path d="M384 168c28 17 36 54 19 82L252 504c-17 28-54 36-82 19-28-17-36-54-19-82L307 199c17-28 54-36 82-31z" opacity="0.85"/>
+    <path d="M472 164c28 17 36 54 19 82L340 500c-17 28-54 36-82 19-28-17-36-54-19-82L435 195c17-28 54-36 82-31z" opacity="0.7"/>
+  </g>
+</svg>
