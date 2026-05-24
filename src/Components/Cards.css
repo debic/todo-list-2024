@@ -72,3 +72,10 @@
     width: 3vw;
   }
 }
+
+.cardActions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5vw;
+}

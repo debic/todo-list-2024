@@ -15,6 +15,8 @@ function App() {
       status: "toDo",
     },
   ]);
+  const [taskToEdit, setTaskToEdit] = useState(null);
+
   useEffect(() => {
     if (localStorage.getItem("toDoList") != null) {
       setToDoList(JSON.parse(localStorage.getItem("toDoList")));
@@ -25,28 +27,37 @@ function App() {
     const arrayWithNewPost = [newPost, ...toDoList];
     setToDoList(arrayWithNewPost);
     localStorage.setItem("toDoList", JSON.stringify(arrayWithNewPost));
-    //console.log(arrayWithNewPost)
-    // console.log(arrayWithNewPost)
   };
+
+  const editPost = (updatedPost) => {
+    const updatedList = toDoList.map((task) =>
+      task.id === updatedPost.id ? updatedPost : task,
+    );
+    setToDoList(updatedList);
+    localStorage.setItem("toDoList", JSON.stringify(updatedList));
+  };
+
   const deletePost = (noteId) => {
-    const copiedtodoList = [...toDoList];
-    const deletedIdList = copiedtodoList.filter((note) => note.id !== noteId);
+    const deletedIdList = toDoList.filter((note) => note.id !== noteId);
     setToDoList(deletedIdList);
     localStorage.setItem("toDoList", JSON.stringify(deletedIdList));
   };
+
   return (
     <DndProvider backend={HTML5Backend}>
       <div className="App">
         <h1 className="titleH1">To do list</h1>
         <TaskForm
           addPost={addPost}
-          toDoList={toDoList}
-          setToDoList={setToDoList}
+          editPost={editPost}
+          taskToEdit={taskToEdit}
+          setTaskToEdit={setTaskToEdit}
         />
         <ListTasks
           toDoList={toDoList}
           setToDoList={setToDoList}
           deletePost={deletePost}
+          setTaskToEdit={setTaskToEdit}
         />
       </div>
     </DndProvider>

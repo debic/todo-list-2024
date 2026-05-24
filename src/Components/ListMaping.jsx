@@ -1,5 +1,5 @@
 import Cards from "./Cards";
-import { useDrag, useDrop } from "react-dnd";
+import { useDrop } from "react-dnd";
 import "./ListMaping.css";
 
 export default function ListMaping({
@@ -10,6 +10,7 @@ export default function ListMaping({
   inProgres,
   done,
   deletePost,
+  setTaskToEdit,
 }) {
   const [{ isOver }, drop] = useDrop(() => ({
     accept: "task",
@@ -50,17 +51,16 @@ export default function ListMaping({
         <p className="count">{taskToMap.length}</p>
       </div>
       {taskToMap.length > 0 &&
-        taskToMap.map((task) => {
-          return (
-            <Cards
-              deletePost={deletePost}
-              key={task.id}
-              task={task}
-              toDoList={toDoList}
-              setToDoList={setToDoList}
-            />
-          );
-        })}
+        taskToMap.map((task) => (
+          <Cards
+            deletePost={deletePost}
+            key={task.id}
+            task={task}
+            toDoList={toDoList}
+            setToDoList={setToDoList}
+            onEdit={setTaskToEdit}
+          />
+        ))}
     </div>
   );
 }

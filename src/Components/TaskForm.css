@@ -8,7 +8,7 @@
 .modalTitle {
   margin-bottom: 1vw;
   font-weight: 600;
-  font-size: 2.5vw;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
   color: #332f4e;
   text-align: center;
@@ -28,7 +28,7 @@
 
 .modal-content {
   box-sizing: border-box;
-  padding: 10vw;
+  padding: 2vw;
 }
 
 .sectionForm {
@@ -51,19 +51,33 @@
   background-color: #5959e0 !important;
 }
 
+.modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.invalidMessage {
+  color: #e05959;
+  font-size: 0.85vw;
+  margin-top: 0.4vw;
+  text-align: left;
+}
+
 /* -------------------- Mobile -------------------- */
 
 @media (max-width: 767px) {
   .modalTitle {
-    font-size: 3vw;
+    font-size: 1.2rem;
   }
 
   .modal-dialog {
     width: 85vw;
     max-width: 85vw;
   }
-}
 
-.modal-backdrop.show {
-  background-color: rgba(0, 0, 0, 0.75);
+  .modal-content {
+    padding: 8vw;
+  }
+  .invalidMessage {
+    font-size: 2.5vw;
+  }
 }
